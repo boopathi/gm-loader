@@ -1,0 +1,24 @@
+{
+  "name": "image-meta-loader",
+  "version": "0.0.1",
+  "description": "Load imported Image's meta data, and some properties",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boopathi/image-meta-loader"
+  },
+  "keywords": [
+    "image-meta-loader",
+    "webpack",
+    "loader"
+  ],
+  "author": "boopathi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boopathi/image-meta-loader/issues"
+  },
+  "homepage": "https://github.com/boopathi/image-meta-loader"
+}
