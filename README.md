@@ -48,13 +48,13 @@ https://github.com/webpack/docs/wiki/configuration#outputpublicpath
 
 The following metadata are available after importing the image
 
-+ src: string
-+ width: number
-+ height: numner
-+ format: string
-+ geometry: string
-+ depth: number
-+ filesize: string
++ src: *string*
++ width: *number*
++ height: *number*
++ format: *string*
++ geometry: *string*
++ depth: *number*
++ filesize: *string*
 
 ## Example:
 
