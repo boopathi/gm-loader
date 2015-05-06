@@ -1,5 +1,9 @@
 # gm-loader
 
+A image loader with some extras. 
+
+Provides image metadata from [GraphicsMagick](https://github.com/aheckmann/gm)
+
 ## Installation and usage
 
 Make sure you have [ImageMagick](http://www.imagemagick.org/) and [GraphicsMagick](http://www.graphicsmagick.org/) installed. On OSX, you can just do 
