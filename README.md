@@ -26,7 +26,18 @@ var image = require('gm!./image.png');
 #### `config.output.imageFilename`
 
 You can use the placeholders specified here -
-https://github.com/webpack/loader-utils#interpolatename
+
+* `[ext]` the extension of the resource
+* `[name]` the basename of the resource
+* `[path]` the path of the resource relative to the `context` query parameter or option.
+* `[hash]` the hash of `options.content` (Buffer) (by default it's the hex digest of the md5 hash)
+* `[<hashType>:hash:<digestType>:<length>]` optionally one can configure
+  * other `hashType`s, i. e. `sha1`, `md5`, `sha256`, `sha512`
+  * other `digestType`s, i. e. `hex`, `base26`, `base32`, `base36`, `base49`, `base52`, `base58`, `base62`, `base64`
+  * and `length` the length in chars
+* `[N]` the N-th match obtained from matching the current file name against `options.regExp`
+
+Source: https://github.com/webpack/loader-utils#interpolatename
 
 #### `config.output.publicPath`
 
