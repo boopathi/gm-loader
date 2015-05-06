@@ -1,6 +1,6 @@
 {
   "name": "gm-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Load imported Image's meta data, and some properties",
   "main": "index.js",
   "repository": {
