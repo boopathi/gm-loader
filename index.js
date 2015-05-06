@@ -12,7 +12,7 @@ module.exports = function(source) {
 	var cb = this.async();
 	if (!cb) throw new Error('Cannot use gm loader');
 
-	var filename = this.options.output.imageFilename;//|| '[name].[ext]';
+	var filename = this.options.output.imageFilename || '[name].[ext]';
 
 	var query = utils.parseQuery(this.query);
 	var url = utils.interpolateName(this, filename, {
