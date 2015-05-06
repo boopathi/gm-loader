@@ -1,24 +1,25 @@
 {
-  "name": "image-meta-loader",
+  "name": "gm-loader",
   "version": "0.0.1",
   "description": "Load imported Image's meta data, and some properties",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/boopathi/image-meta-loader"
+    "url": "https://github.com/boopathi/gm-loader"
   },
   "keywords": [
-    "image-meta-loader",
+    "gm-loader",
     "webpack",
     "loader"
   ],
   "author": "boopathi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/boopathi/image-meta-loader/issues"
+    "url": "https://github.com/boopathi/gm-loader/issues"
   },
-  "homepage": "https://github.com/boopathi/image-meta-loader"
+  "homepage": "https://github.com/boopathi/gm-loader",
+  "dependencies": {
+    "gm": "^1.17.0",
+    "loader-utils": "^0.2.7"
+  }
 }
