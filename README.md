@@ -1,5 +1,7 @@
 # gm-loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/boopathi/gm-loader.svg)](https://greenkeeper.io/)
+
 An image loader with some extras. 
 
 Provides image metadata from [GraphicsMagick](https://github.com/aheckmann/gm)
